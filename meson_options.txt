@@ -1,0 +1,5 @@
+option('fetch_cores', type: 'boolean', value: true,
+  description: 'Download the pinned xray, sing-box and sing-box-lx releases at build time')
+
+option('gcc_warnings', type: 'boolean', value: true,
+  description: 'Show GCC warnings for the generated C (minus the kinds valac always produces)')

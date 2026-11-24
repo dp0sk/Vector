@@ -1,0 +1,9 @@
+namespace Vector.Config {
+    public const string APP_VERSION = "@APP_VERSION@";
+    public const string LIBEXECDIR = "@LIBEXECDIR@";
+    // Pinned core versions (fetch_cores.py); "" when the build fetches no
+    // cores, so nothing is pinned.
+    public const string SING_BOX_VERSION = "@SING_BOX_VERSION@";
+    public const string XRAY_VERSION = "@XRAY_VERSION@";
+    public const string SING_BOX_LX_VERSION = "@SING_BOX_LX_VERSION@";
+}

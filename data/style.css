@@ -1,0 +1,260 @@
+window, popover, label {
+    font-family: system-ui, Cantarell, "Noto Color Emoji", "Apple Color Emoji", "Segoe UI Emoji", emoji, sans-serif;
+}
+
+.start-button {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.current-info {
+    margin-top: -8px;
+    margin-bottom: -8px;
+    margin-left: -8px;
+    margin-right: 0px;
+    padding: 8px;
+}
+
+.locate-btn {
+    opacity: 0.55;
+    transition: opacity 200ms ease;
+}
+
+.locate-btn:hover, .locate-btn:active {
+    opacity: 1.0;
+}
+
+.latency-good {
+    color: @success_color;
+}
+
+.latency-mid {
+    color: @warning_color;
+}
+
+.speed-good {
+    color: @success_color;
+}
+
+.speed-mid {
+    color: @warning_color;
+}
+
+.latency-bad {
+    color: @error_color;
+}
+
+.flat-tabbar {
+    background: transparent;
+    box-shadow: none;
+    padding: 0;
+}
+
+.flat-tabbar.background {
+    background: transparent;
+}
+
+.flat-tabbar > box {
+    background: transparent;
+    box-shadow: none;
+}
+
+.flat-tabbar > revealer {
+    background: transparent;
+    box-shadow: none;
+}
+
+.flat-tabbar > revealer > box {
+    background: transparent;
+    box-shadow: none;
+}
+
+listview.servers-list {
+    background: transparent;
+}
+
+listview.servers-list > row {
+    margin: 3px 8px;
+    padding: 8px 12px;
+    border-radius: 12px;
+    background: @view_hover_bg_color;
+}
+
+listview.servers-list > row:hover {
+    background: @card_bg_color;
+}
+
+listview.servers-list > row.menu-open {
+    background: @card_bg_color;
+}
+
+row.activatable.menu-open {
+    background-color: alpha(currentColor, 0.08);
+}
+
+listview.servers-list > row:selected {
+    background: alpha(@accent_bg_color, .15);
+}
+
+listview.servers-list > row.node-active {
+    background: alpha(@accent_bg_color, .35);
+}
+
+.numeric {
+    min-width: 60px;
+}
+
+.server-header-bar {
+    padding: 0px;
+}
+
+.server-col-btn {
+    min-height: 24px;
+    padding: 2px 4px;
+    border-radius: 6px;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+}
+
+.server-col-btn:hover {
+    background: alpha(currentColor, 0.08);
+}
+
+.server-col-btn .col-title {
+    font-size: 12px;
+    font-weight: 600;
+    color: alpha(currentColor, 0.45);
+}
+
+.server-col-btn:hover .col-title {
+    color: alpha(currentColor, 0.9);
+}
+
+.server-col-btn.active-sort .col-title {
+    color: @window_fg_color;
+    font-weight: bold;
+}
+
+.server-col-btn .col-arrow {
+    color: @window_fg_color;
+    -gtk-icon-size: 14px;
+}
+
+toolbarview > .bottom-bar .collapse-spacing {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+button.circular.sort-dir-btn {
+    min-width: calc(34px - 3px * 2 + 3px / 2);
+    min-height: calc(34px - 3px * 2 + 3px / 2);
+    padding: 0;
+}
+
+button.circular {
+    border-radius: 9999px;
+    padding: 7px;
+    min-width: 32px;
+    min-height: 32px;
+}
+
+.server-header-sep {
+    opacity: 0.12;
+    margin: 0px 8px;
+}
+
+.flat-tabbar .tab-close-button {
+    opacity: 0;
+}
+
+.editor-card {
+    border-radius: 9px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background-color: @card_bg_color;
+    transition: border-color 200ms ease, box-shadow 200ms ease, outline 200ms ease;
+}
+
+.editor-card:focus-within {
+    border-color: @accent_bg_color;
+    outline: 2px solid @accent_bg_color;
+    outline-offset: -1px;
+}
+
+.editor-card textview {
+    background: transparent;
+    color: @card_fg_color;
+}
+
+.editor-card textview text {
+    background: transparent;
+}
+
+textview text {
+    font-family: "JetBrains Mono", "Cascadia Code", "Fira Code", "SF Mono", "Consolas", monospace;
+    font-size: 13px;
+}
+
+.node-menu {
+    padding: 0px;
+    margin: -2px;
+}
+
+.node-menu button,
+.node-menu button label,
+popover button.flat,
+popover button.flat label {
+    font-weight: normal;
+}
+
+.drag-icon-card {
+    padding: 12px 16px;
+    border-radius: 12px;
+    background-color: @window_bg_color;
+    border: 1px solid alpha(@borders, 0.5);
+    box-shadow: 0 4px 12px alpha(black, 0.15);
+    opacity: 0.85;
+}
+
+/* Log colours: the lines of the Logs page (their text tags read these via
+   hidden probe labels, LogPage.refresh_log_tag_colors) and the filter
+   buttons that control them. */
+.log-dim,
+.log-debug    { color: alpha(@window_fg_color, 0.55); }
+.log-warn     { color: @yellow_4; }
+.log-error    { color: @red_1; }
+.log-app      { color: @blue_2; }
+.log-inbound  { color: @green_2; }
+.log-outbound { color: @purple_2; }
+
+/* Log filter buttons: border and fill derive from the text colour. */
+.log-filter {
+    padding: 4px 10px;
+}
+.log-filter:hover {
+    background: alpha(currentColor, 0.1);
+}
+.log-filter:checked {
+    background: alpha(currentColor, 0.1);
+    border-color: alpha(currentColor, 0.5);
+}
+.log-filter:not(:checked) {
+    opacity: 0.5;
+}
+
+.toggle-group {
+    background: alpha(@headerbar_shade_color, 0.5);
+    border-radius: 8px;
+    padding: 3px;
+}
+
+.toggle-group button.flat {
+    border-radius: 6px;
+    padding: 2px 10px;
+}
+
+.toggle-group button.flat:checked {
+    background: @card_bg_color;
+    box-shadow: 0 1px 3px alpha(@shade_color, 0.4);
+}

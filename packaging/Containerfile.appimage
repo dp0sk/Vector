@@ -1,0 +1,17 @@
+# Build environment for the Vector AppImage.
+#
+# The AppImage bundles libsoup/json-glib/libqrencode from this image but uses the
+# host's glibc, GLib, Pango, Cairo, GTK, libadwaita etc. Those must be OLDER here than on any
+# target system, so keep this base as old as the minimum GTK/libadwaita allow.
+# Debian 13: glibc 2.41, GLib 2.84, GTK 4.18, libadwaita 1.7 (the oldest
+# common base with libadwaita >= 1.7, needed for Adw.ToggleGroup).
+FROM docker.io/library/debian:trixie
+
+ENV DEBIAN_FRONTEND=noninteractive
+RUN apt-get update && apt-get install -y --no-install-recommends \
+        valac meson ninja-build gcc pkg-config \
+        libgtk-4-dev libadwaita-1-dev libsoup-3.0-dev libjson-glib-dev libqrencode-dev \
+        libgdk-pixbuf2.0-bin librsvg2-common librsvg2-bin \
+        adwaita-icon-theme gsettings-desktop-schemas \
+        python3 ca-certificates curl file dpkg-dev \
+    && rm -rf /var/lib/apt/lists/*

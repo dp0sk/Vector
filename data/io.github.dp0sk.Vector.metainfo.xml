@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.dp0sk.Vector</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-only</project_license>
+  <name>Vector</name>
+  <summary>Proxy client for GNOME</summary>
+  <description>
+    <p>
+      Vector is a proxy client for sing-box and xray-core. Built with Libadwaita.
+    </p>
+    <p>Features:</p>
+    <ul>
+      <li>Support for VLESS, Reality, VMess, Trojan, Shadowsocks, WireGuard, and AmneziaWG</li>
+      <li>Automatic subscription updates with support for custom User-Agent and xhttp headers</li>
+      <li>Rule-based routing presets</li>
+      <li>Desktop proxy configuration and system-wide TUN mode</li>
+      <li>Real-delay HTTP latency and speed benchmarking with dynamic sorting</li>
+    </ul>
+  </description>
+  <launchable type="desktop-id">io.github.dp0sk.Vector.desktop</launchable>
+  <url type="homepage">https://github.com/dp0sk/Vector</url>
+  <url type="bugtracker">https://github.com/dp0sk/Vector/issues</url>
+  <url type="vcs-browser">https://github.com/dp0sk/Vector</url>
+  <developer id="io.github.dp0sk">
+    <name>dp0sk</name>
+  </developer>
+  <provides>
+    <binary>vector-adw</binary>
+  </provides>
+  <requires>
+    <display_length compare="ge">360</display_length>
+  </requires>
+  <supports>
+    <control>pointing</control>
+    <control>keyboard</control>
+    <control>touch</control>
+  </supports>
+  <screenshots>
+    <screenshot type="default">
+      <caption>Servers list with speed sort and active connection</caption>
+      <image>https://raw.githubusercontent.com/dp0sk/Vector/master/data/screenshots/screenshot-full-light.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Adaptive layout for medium displays</caption>
+      <image>https://raw.githubusercontent.com/dp0sk/Vector/master/data/screenshots/screenshot-medium-light.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Compact mobile layout with bottom control bar</caption>
+      <image>https://raw.githubusercontent.com/dp0sk/Vector/master/data/screenshots/screenshot-mobile-light.png</image>
+    </screenshot>
+  </screenshots>
+  <branding>
+    <color type="primary" scheme_preference="light">#f8c6d8</color>
+    <color type="primary" scheme_preference="dark">#5e102e</color>
+  </branding>
+  <content_rating type="oars-1.1"/>
+  <releases>
+    <release version="0.1.0" date="2026-11-21">
+      <description>
+        <p>Initial release</p>
+      </description>
+    </release>
+  </releases>
+</component>

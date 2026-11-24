@@ -1,0 +1,15 @@
+[Desktop Entry]
+Type=Application
+Name=Vector
+GenericName=Proxy Client
+GenericName[ru]=Прокси-клиент
+Comment=Proxy client for GNOME
+Comment[ru]=Прокси-клиент для GNOME
+Exec=vector-adw
+Icon=io.github.dp0sk.Vector
+Terminal=false
+Categories=Network;
+Keywords=proxy;vpn;sing-box;xray;amnezia;vless;vmess;shadowsocks;wireguard;
+Keywords[ru]=прокси;впн;прокси-клиент;vpn;proxy;sing-box;xray;amnezia;
+StartupNotify=true
+StartupWMClass=io.github.dp0sk.Vector

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Compiled into the binary (meson: gnome.compile_resources). The prefix is
+     the application's resource base path, so Adw.Application loads style.css
+     and GTK adds icons/ to the icon theme without any code. -->
+<gresources>
+  <gresource prefix="/io/github/dp0sk/Vector">
+    <file>style.css</file>
+    <!-- Happ deep-link keys (RSA, community-extracted; see HappLink.vala). -->
+    <file alias="happ-keys.json" preprocess="json-stripblanks">happ-keys.json</file>
+    <file alias="icons/scalable/apps/io.github.dp0sk.Vector.svg" preprocess="xml-stripblanks">icons/hicolor/scalable/apps/io.github.dp0sk.Vector.svg</file>
+    <file alias="icons/symbolic/apps/io.github.dp0sk.Vector-symbolic.svg" preprocess="xml-stripblanks">icons/hicolor/symbolic/apps/io.github.dp0sk.Vector-symbolic.svg</file>
+    <!-- Symbolic icons used by the UI (data/icons/hicolor/), found by icon_name. -->
+    <file alias="icons/scalable/actions/3d-box-symbolic.svg" preprocess="xml-stripblanks">icons/hicolor/scalable/actions/3d-box-symbolic.svg</file>
+    <file alias="icons/scalable/actions/application-x-sharedlib-symbolic.svg" preprocess="xml-stripblanks">icons/hicolor/scalable/actions/application-x-sharedlib-symbolic.svg</file>
+    <file alias="icons/scalable/actions/arrow-clockwise-symbolic.svg" preprocess="xml-stripblanks">icons/hicolor/scalable/actions/arrow-clockwise-symbolic.svg</file>
+    <file alias="icons/scalable/actions/base-down-arrow-symbolic.svg" preprocess="xml-stripblanks">icons/hicolor/scalable/actions/base-down-arrow-symbolic.svg</file>
+    <file alias="icons/scalable/actions/base-up-arrow-symbolic.svg" preprocess="xml-stripblanks">icons/hicolor/scalable/actions/base-up-arrow-symbolic.svg</file>
+    <file alias="icons/scalable/actions/bug-symbolic.svg" preprocess="xml-stripblanks">icons/hicolor/scalable/actions/bug-symbolic.svg</file>
+    <file alias="icons/scalable/actions/condition-symbolic.svg" preprocess="xml-stripblanks">icons/hicolor/scalable/actions/condition-symbolic.svg</file>
+    <file alias="icons/scalable/actions/edit-clear-symbolic.svg" preprocess="xml-stripblanks">icons/hicolor/scalable/actions/edit-clear-symbolic.svg</file>
+    <file alias="icons/scalable/actions/eraser-symbolic.svg" preprocess="xml-stripblanks">icons/hicolor/scalable/actions/eraser-symbolic.svg</file>
+    <file alias="icons/scalable/actions/info-outline-symbolic.svg" preprocess="xml-stripblanks">icons/hicolor/scalable/actions/info-outline-symbolic.svg</file>
+    <file alias="icons/scalable/actions/loupe-symbolic.svg" preprocess="xml-stripblanks">icons/hicolor/scalable/actions/loupe-symbolic.svg</file>
+    <file alias="icons/scalable/actions/mark-junk-symbolic.svg" preprocess="xml-stripblanks">icons/hicolor/scalable/actions/mark-junk-symbolic.svg</file>
+    <file alias="icons/scalable/actions/media-playback-start-symbolic.svg" preprocess="xml-stripblanks">icons/hicolor/scalable/actions/media-playback-start-symbolic.svg</file>
+    <file alias="icons/scalable/actions/media-playback-stop-symbolic.svg" preprocess="xml-stripblanks">icons/hicolor/scalable/actions/media-playback-stop-symbolic.svg</file>
+    <file alias="icons/scalable/actions/open-menu-symbolic.svg" preprocess="xml-stripblanks">icons/hicolor/scalable/actions/open-menu-symbolic.svg</file>
+    <file alias="icons/scalable/actions/pan-down-symbolic.svg" preprocess="xml-stripblanks">icons/hicolor/scalable/actions/pan-down-symbolic.svg</file>
+    <file alias="icons/scalable/actions/pan-up-symbolic.svg" preprocess="xml-stripblanks">icons/hicolor/scalable/actions/pan-up-symbolic.svg</file>
+    <file alias="icons/scalable/actions/pencil-symbolic.svg" preprocess="xml-stripblanks">icons/hicolor/scalable/actions/pencil-symbolic.svg</file>
+    <file alias="icons/scalable/actions/plus-symbolic.svg" preprocess="xml-stripblanks">icons/hicolor/scalable/actions/plus-symbolic.svg</file>
+    <file alias="icons/scalable/actions/proxy-server-symbolic.svg" preprocess="xml-stripblanks">icons/hicolor/scalable/actions/proxy-server-symbolic.svg</file>
+    <file alias="icons/scalable/actions/rss-symbolic.svg" preprocess="xml-stripblanks">icons/hicolor/scalable/actions/rss-symbolic.svg</file>
+    <file alias="icons/scalable/actions/sliders-symbolic.svg" preprocess="xml-stripblanks">icons/hicolor/scalable/actions/sliders-symbolic.svg</file>
+    <file alias="icons/scalable/actions/speedometer-symbolic.svg" preprocess="xml-stripblanks">icons/hicolor/scalable/actions/speedometer-symbolic.svg</file>
+    <file alias="icons/scalable/actions/target-symbolic.svg" preprocess="xml-stripblanks">icons/hicolor/scalable/actions/target-symbolic.svg</file>
+    <file alias="icons/scalable/actions/terminal-symbolic.svg" preprocess="xml-stripblanks">icons/hicolor/scalable/actions/terminal-symbolic.svg</file>
+    <file alias="icons/scalable/actions/user-trash-symbolic.svg" preprocess="xml-stripblanks">icons/hicolor/scalable/actions/user-trash-symbolic.svg</file>
+    <file alias="icons/scalable/actions/vertical-arrows-symbolic.svg" preprocess="xml-stripblanks">icons/hicolor/scalable/actions/vertical-arrows-symbolic.svg</file>
+    <!-- Standard icon aliases mapping to bundled icons -->
+    <file alias="icons/scalable/actions/view-refresh-symbolic.svg" preprocess="xml-stripblanks">icons/hicolor/scalable/actions/arrow-clockwise-symbolic.svg</file>
+    <file alias="icons/scalable/actions/list-add-symbolic.svg" preprocess="xml-stripblanks">icons/hicolor/scalable/actions/plus-symbolic.svg</file>
+    <file alias="icons/scalable/actions/find-location-symbolic.svg" preprocess="xml-stripblanks">icons/hicolor/scalable/actions/target-symbolic.svg</file>
+    <file alias="icons/scalable/actions/document-edit-symbolic.svg" preprocess="xml-stripblanks">icons/hicolor/scalable/actions/pencil-symbolic.svg</file>
+    <file alias="icons/scalable/actions/mail-mark-junk-symbolic.svg" preprocess="xml-stripblanks">icons/hicolor/scalable/actions/mark-junk-symbolic.svg</file>
+    <file alias="icons/scalable/actions/edit-find-symbolic.svg" preprocess="xml-stripblanks">icons/hicolor/scalable/actions/loupe-symbolic.svg</file>
+    <file alias="icons/scalable/actions/system-search-symbolic.svg" preprocess="xml-stripblanks">icons/hicolor/scalable/actions/loupe-symbolic.svg</file>
+    <file alias="icons/scalable/actions/application-x-appliance-symbolic.svg" preprocess="xml-stripblanks">icons/hicolor/scalable/actions/3d-box-symbolic.svg</file>
+  </gresource>
+</gresources>
