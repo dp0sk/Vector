@@ -1,6 +1,6 @@
 <div>
   <div align="left">
-    <img alt="Vector icon" align="left" width="128" src="https://raw.githubusercontent.com/dp0sk/Vector/refs/heads/master/data/icons/hicolor/scalable/apps/io.github.dp0sk.Vector.svg" />
+    <img alt="Vector icon" align="left" width="128" src="https://raw.githubusercontent.com/dp0sk/Vector/refs/heads/main/data/icons/hicolor/scalable/apps/io.github.dp0sk.Vector.svg" />
   </div>
 
   <br/> <br/> <br/> <br/> <br/> <br/>
@@ -14,9 +14,9 @@
   </p>
 
   <div align="left">
-    <img alt="Desktop view" width="100%" src="https://raw.githubusercontent.com/dp0sk/Vector/refs/heads/master/data/screenshots/screenshot-full-light.png" />
-    <img alt="Adaptive medium layout" width="63%" src="https://raw.githubusercontent.com/dp0sk/Vector/refs/heads/master/data/screenshots/screenshot-medium-light.png" />
-    <img alt="Compact mobile layout" width="35.5%" src="https://raw.githubusercontent.com/dp0sk/Vector/refs/heads/master/data/screenshots/screenshot-mobile-light.png" />
+    <img alt="Desktop view" width="100%" src="https://raw.githubusercontent.com/dp0sk/Vector/refs/heads/main/data/screenshots/screenshot-full-light.png" />
+    <img alt="Adaptive medium layout" width="63%" src="https://raw.githubusercontent.com/dp0sk/Vector/refs/heads/main/data/screenshots/screenshot-medium-light.png" />
+    <img alt="Compact mobile layout" width="35.5%" src="https://raw.githubusercontent.com/dp0sk/Vector/refs/heads/main/data/screenshots/screenshot-mobile-light.png" />
   </div>
 
   <br/>
